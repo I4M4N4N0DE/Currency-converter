@@ -43,7 +43,7 @@ class Main:
             
             cash = int(input("Insert your money: "))
             # This part of the code can be changed by you - simply rewrite the number shown after "resum = cash *" -  the function will change it's exchange rate
-            resum = cash * 0.001
+            resum = cash * 1.008
             presum = str(resum)
             print("Your result is: " + presum + " €")
             Gui()
@@ -55,11 +55,13 @@ class Main:
             resum = cash * 0.998898
             presum = str(resum)
             print("Your result is: " + presum + " $")
+            
             Gui()
             
 def Gui():
     
     buttonwin = tk.Tk()
+    name = buttonwin.title("EXCHANGE")
     buttonwin.geometry("200x200")
     
     b1 = tk.Button(buttonwin, text="CZK -> $", command=Main.czktodollar).place(x=10, y=20)
