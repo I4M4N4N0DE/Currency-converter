@@ -10,7 +10,6 @@ class Main:
             resum = cash * 0.040796
             presum = str(resum)
             print("Your result is: " + presum + " $")
-            Gui()
     
         def dollartoczk():
             
@@ -28,7 +27,6 @@ class Main:
             resum = cash * 24.485
             presum = str(resum)
             print("Your result is: " + presum + " €")
-            Gui()
             
         def eurotoczk():
             
@@ -37,7 +35,6 @@ class Main:
             resum = cash * 0.40841
             presum = str(resum)
             print("Your result is: " + presum + " CZK")
-            Gui()
         
         def dollartoeuro():
             
@@ -46,7 +43,6 @@ class Main:
             resum = cash * 1.008
             presum = str(resum)
             print("Your result is: " + presum + " €")
-            Gui()
         
         def eurotodollar():
             
@@ -55,8 +51,7 @@ class Main:
             resum = cash * 0.998898
             presum = str(resum)
             print("Your result is: " + presum + " $")
-            
-            Gui()
+
             
 def Gui():
     
